@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growfinix AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <header>
+            <h1>Growfinix AI Chat</h1>
+            <p>Your AI-powered assistant</p>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot">
+                Hello! Welcome to Growfinix AI Chat. How can I help you?
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type your message..."
+            >
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
